@@ -821,11 +821,9 @@ window.openLifePathMusicCreator = function(resultIndex) {
     sessionStorage.setItem('musicCreationData', JSON.stringify(musicData));
     console.log('✅ Music data saved to sessionStorage:', musicData);
     
-    // 4. เปิดหน้า music-creator.html
-    // window.location.href = 'music-creator.html?type=lifePath';
-    
-    window.location.href = 'https://rainboworcakids-collab.github.io/psychomatrix-music-ecosystem/apps/music-promo-pwa/';
-    
+    // 4. เปิดหน้า DestiBlueMusic Basic Edition
+    window.location.href = 'https://rainboworcakids-collab.github.io/DestiBlueMusic/Basic/';
+
     
 };
 
