@@ -13,6 +13,9 @@ const log = (msg, type) => {
 const SUPABASE_URL = 'https://oibubvhuiuurkxhnefsw.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_tDw0VvUdJsLrETh25IKCRA_VG-telwP';
 
+window.SUPABASE_URL = SUPABASE_URL;
+window.SUPABASE_ANON_KEY = SUPABASE_ANON_KEY;
+
 // 2. Global Supabase Clients
 let supabaseClient = null;
 let supabaseAdmin = null;
